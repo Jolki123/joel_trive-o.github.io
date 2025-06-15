@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina web Joel Triveño</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<header>
+  <!-- Logo de la empresa -->
+  <div id="logo">
+    <a href="index.html">
+      <img src="imagenes/logo soluciones informaticas.png" alt="Logo de la empresa" width="120">
+    </a>
+  </div>
+
+  <!-- Menú de navegación -->
+  <div id="menu-navegacion">
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="soporte.html">Soporte Técnico</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<body>
+<section id="hero">
+  <div class="contenido-hero">
+    <h1>Soluciones de TI Especializadas para tu Negocio</h1>
+    <p>En <strong>Soluciones Informaticas</strong>, entendemos la importancia de la tecnología y el servicio al cliente. Ofrecemos soluciones informáticas adaptadas a tus necesidades con rapidez, calidad y confianza.</p>
+    <img src="imagenes/pexels-georgemorina-4960396.jpg" alt="Equipo de TI trabajando" style="margin-top: 20px; max-width: 100%; border-radius: 12px;">
+  </div>
+</section>
+
+<section id="sobre-nosotros">
+  <div class="contenido-sobre">
+    <h2>Sobre Nosotros</h2>
+    <p>En Soluciones Informáticas nos dedicamos a ofrecer servicios técnicos de calidad en informática, redes y ciberseguridad. Nos especializamos en atender tanto a particulares como a pequeñas empresas que necesitan soluciones prácticas, rápidas y adaptadas a sus necesidades. Apostamos por un trato cercano, precios justos y un servicio profesional. Nos gusta resolver problemas, mejorar entornos digitales y ayudar a nuestros clientes a sacar el máximo provecho de la tecnología.</p>
+    
+    <img src="imagenes/pexels-field-engineer-147254-442154.jpg" alt="imagenes/pexels-field-engineer-147254-442154.jpg" style="margin: 20px 0; max-width: 100%; border-radius: 10px;">
+
+    <h3>Nuestra Misión</h3>
+    <!-- resto igual -->
+    <p>Brindar soluciones tecnológicas eficientes que impulsen el crecimiento de nuestros clientes.</p>
+
+    <h3>Visión</h3>
+    <p>Ser una empresa de referencia en el sector TIC, reconocida por nuestra innovación y atención personalizada.</p>
+
+    <h3>Valores</h3>
+    <ul>
+      <li>Profesionalismo en TI</li>
+      <li>Innovación constante</li>
+      <li>Proximidad y compromiso con el cliente</li>
+    </ul>
+
+    <a href="servicios.html" class="boton-servicios">Ver nuestros servicios</a>
+  </div>
+</section>
+<section id="servicios">
+  <div class="contenido-servicios">
+    <h2>Nuestros Servicios</h2>
+    <div class="lista-servicios">
+      
+     <div class="lista-servicios">
+  <div class="servicio">
+    <img src="imagenes/pexels-yankrukov-8866716.jpg" alt="Soporte Técnico" style="width: 100%; border-radius: 8px; margin-bottom: 10px;">
+    <h3>Soporte Técnico</h3>
+    <p>Asistencia remota y presencial...</p>
+  </div>
+
+  <div class="servicio">
+    <img src="imagenes/pexels-cottonbro-4705628.jpg" alt="Mantenimiento Informático" style="width: 100%; border-radius: 8px; margin-bottom: 10px;">
+    <h3>Mantenimiento Informático</h3>
+    <p>Limpieza, formateo...</p>
+  </div>
+
+  <div class="servicio">
+    <img src="imagenes/pexels-brett-sayles-2425567.jpg" alt="Instalación de Redes" style="width: 100%; border-radius: 8px; margin-bottom: 10px;">
+    <h3>Instalación de Redes</h3>
+    <p>Montaje, configuración...</p>
+  </div>
+
+  <div class="servicio">
+    <img src="imagenes/pexels-cottonbro-5483248.jpg" alt="Seguridad Informática" style="width: 100%; border-radius: 8px; margin-bottom: 10px;">
+    <h3>Seguridad Informática</h3>
+    <p>Antivirus, firewalls...</p>
+</section>
+<section id="contacto">
+  <div class="contenido-contacto">
+    <h2>Contáctanos</h2>
+    <p>¿Tienes alguna consulta?... </p>
+
+    <img src="imagenes/pexels-cup-of-couple-8472564.jpg" alt="Persona usando ordenador" style="margin: 20px 0; max-width: 100%; border-radius: 10px;">
+
+    <!-- Formulario aquí -->
+
+    <p>¿Tienes alguna consulta? Estamos aquí para ayudarte. Completa el siguiente formulario y te responderemos lo antes posible.</p>
+
+    <form action="enviar.php" method="POST" class="formulario-contacto">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+      <button type="submit">Enviar mensaje</button>
+    </form>
+
+    <div class="info-extra">
+      <p><strong>Email:</strong> contacto@SolucionesInformaticas.com</p>
+      <p><strong>Teléfono:</strong> +34 600 123 456</p>
+      <p><strong>Horario:</strong> Lunes a Viernes - 9:00 a 18:00</p>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="footer-contenido">
+    <p>&copy; 2025 Soluciones Informaticas. Todos los derechos reservados.</p>
+
+    <div class="enlaces-footer">
+      <a href="index.html">Inicio</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="soporte.html">Soporte Técnico</a>
+      <a href="contacto.html">Contacto</a>
+    </div>
+
+    <div class="info-legal">
+      <a href="#">Aviso Legal</a> | 
+      <a href="#">Política de Privacidad</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

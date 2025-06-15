@@ -1,0 +1,210 @@
+/* General */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #0056b3;
+}
+
+a:hover {
+  color: #003d80;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #0d1b2a;
+  color: #fff;
+}
+
+#logo img {
+  height: auto;
+  width: 120px;
+}
+
+#menu-navegacion ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+#menu-navegacion ul li a {
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+#menu-navegacion ul li a:hover {
+  color: #00b4d8;
+}
+
+/* Sección Hero */
+#hero {
+  background-color: #e0f7fa;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contenido-hero h1 {
+  font-size: 2.5rem;
+  color: #0d1b2a;
+  margin-bottom: 15px;
+}
+
+.contenido-hero p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Sobre Nosotros */
+#sobre-nosotros {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#sobre-nosotros h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #0d1b2a;
+}
+
+#sobre-nosotros p {
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+#sobre-nosotros ul {
+  list-style: none;
+  padding: 0;
+}
+
+#sobre-nosotros li {
+  margin: 8px 0;
+}
+
+.boton-servicios {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #0077b6;
+  color: white;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.boton-servicios:hover {
+  background-color: #023e8a;
+}
+
+/* Servicios */
+#servicios {
+  padding: 40px 20px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.lista-servicios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.servicio {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.servicio:hover {
+  transform: translateY(-5px);
+}
+
+.servicio h3 {
+  color: #0d1b2a;
+  margin-bottom: 10px;
+}
+
+/* Contacto */
+#contacto {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.formulario-contacto {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.formulario-contacto label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.formulario-contacto button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formulario-contacto button:hover {
+  background-color: #023e8a;
+}
+
+/* Footer */
+footer {
+  background-color: #0d1b2a;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.enlaces-footer a,
+.info-legal a {
+  margin: 0 10px;
+  color: #ffffff;
+  font-size: 0.95rem;
+}
+
+.enlaces-footer a:hover,
+.info-legal a:hover {
+  color: #00b4d8;
+}
+
+.footer-contenido {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
